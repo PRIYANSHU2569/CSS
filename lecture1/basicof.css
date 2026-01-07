@@ -1,0 +1,15 @@
+/* css comment */
+h1{
+    color: green;
+}
+*{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: purple;
+}
+#first{
+    color: orange;
+}
+.second{
+    color: brown;
+}
