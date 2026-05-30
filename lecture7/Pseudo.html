@@ -3,10 +3,39 @@
 <head>
    
     <title>
-        
+        Pseudo Class
     </title>
+    <style>
+        .pseudo{
+            height: 25px;
+            width: 150px;
+            padding: 10px;
+            background-color: aquamarine;
+            border: 2px solid black;
+            border-radius: 10px;
+
+            transition-property: all ;
+            transition-duration:1s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 0s;
+
+        }
+        .pseudo:hover{
+            height: 50px;
+            width: 200px;
+            background-color: brown;
+            
+        }
+        .pseudo:active{
+            height: 50px;
+            width: 200px;
+            background-color: rgb(149, 24, 184);
+        }
+
+    </style>
 </head>
 <body>
+    <button class="pseudo">Click me</button>
     
 </body>
 </html>
