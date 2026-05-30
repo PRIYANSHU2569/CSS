@@ -17,9 +17,10 @@
     border: 3px solid black;
 
     display: flex;
-    justify-content: center  ;
+    /* justify-content: center  ; */
     /* flex-wrap: wrap; */
-   
+    /* for cross axix use for align item centre */
+    align-items: center;
     
 
 }
